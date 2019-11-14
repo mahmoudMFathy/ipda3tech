@@ -1,0 +1,358 @@
+/* defult format */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Cairo', sans-serif !important;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+/* End Defult Format */
+/* most important format */
+.Title {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.TitleBorder {
+    border-bottom: blue 1px solid;
+}
+
+/* End most important format */
+/* nav */
+.logo {
+    width: 150px;
+}
+
+.navbar-nav {
+    align-items: flex-end;
+    padding: 5px 15px;
+}
+
+/* End Nav */
+
+/* header */
+.header {
+    background: url(../img/header-side.jpg) center left no-repeat;
+    background-size: contain;
+}
+
+.header p {
+    padding-top: 100px;
+    font-size: 35px;
+
+}
+
+/* end header */
+
+/* aboutus */
+.AboutText {
+    padding: 150px 60px;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 16px;
+}
+
+/* end aboutus */
+/* Service  */
+.slider-service {
+    margin: 18px 50px 60px 60px;
+    position: relative;
+}
+
+.srvc {
+    background: url(../img/we-offer.png) center center no-repeat;
+    background-size: cover;
+}
+
+.Servicecol {
+    margin: 0px 10px;
+    padding: 0px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Servicecol img {
+    padding: 0px 50px;
+}
+
+.angle a {
+    color: black;
+}
+
+/* End Service  */
+
+/* Proj */
+.proj {
+    background: url(../img/bg30-Ar1web.gif) center;
+    background-size: auto;
+    /* padding-bottom: 0px; */
+}
+
+.projElement {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 10px;
+    box-shadow: 5px 5px 5px 5px #d8d7d7;
+
+}
+
+.projElement h3 {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    color: black;
+}
+
+.projElement img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.rowButton {
+    padding: 10px;
+}
+
+.buttonMore {
+    background-color: #0c0a0ac4;
+    color: white;
+    width: 200px;
+    padding: 7px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #c9c8c8;
+
+
+}
+
+.buttonlink {
+    color: rgb(247, 245, 245);
+}
+
+.rowButton p {
+    text-align: center;
+}
+
+/* End Proj */
+/* News */
+.News {
+    padding-top: 30px;
+}
+
+.newscol {
+    padding: 30px 85px;
+}
+
+.NewsElement {
+    border-radius: 20px;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px #c9c8c8;
+    background-color: #fff;
+}
+
+.NewsElement img {
+    border-radius: 20px;
+}
+
+.buttonNews {
+    background-color: #0c0a0ab2;
+    color: white;
+    width: 15%;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+    float: right;
+    width: 30%;
+    /* box-shadow: 5px 5px 5px 5px #c9c8c8; */
+
+}
+
+/* End News */
+/* clients */
+.clients {
+    background: url(../img/our-client-bg.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.client {
+    padding: 50px 50px;
+
+}
+
+.clientItems {
+    margin: 50px 30px;
+}
+
+.clientItems img {
+    max-height: 200px;
+}
+
+/* End Clients */
+/* footer */
+footer {
+    background: url(../img/footer.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.footertext {
+    color: white;
+    margin: 150px 150px 0px 0px;
+}
+
+.footertext img {
+    margin: 10px 0px;
+    width: 30%;
+}
+
+.footerimg img {
+    margin: 90px 0px;
+
+}
+
+.fa {
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+/* EndFooter */
+/* our work page */
+.subproj {
+    background-color: #D1CECE;
+}
+
+.subTitle {
+    margin:20px 10px 20px 0px  ;
+}
+
+.subTitleBorder {
+    border-right: #3EA9EC 3px solid;
+    padding: 0px 10px;
+    margin: 0px 20px;
+
+}
+
+
+/* End our work page */
+/* News page */
+.subNews {
+    background: url(../img/articles.jpg) center center no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+/* End NEws page */
+/* project page */
+.projpage img {
+    padding: 100px;
+}
+
+.projdetails {
+    background: url(../img/details-bg.png) center center no-repeat;
+    margin: 10px;
+}
+
+.projsubpage {
+    width: 100%;
+    height: 100%;
+}
+
+/* End project page */
+/* win7 */
+.win7 {
+    background: url(../img/bg30-Ar1web.gif);
+    padding-bottom: 10px;
+
+}
+
+.win7div {
+    border-radius: 15px;
+}
+.win7div p{
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+.win7div img {
+    margin: 30px 0px;
+    box-shadow: 5px 5px 5px 10px #d8d7d7;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* End win7 */
+
+/* slider */
+
+
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-carousel .my-card {
+    /* height: 20rem; */
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 1s;
+}
+
+.card-carousel .my-card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: -5rem;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+.card-carousel .my-card.prev,
+.card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 0.6;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+@media screen and (max-width: 425px) {
+    .win7div {
+        padding: 50px;
+    }
+    .win7text{
+        font-size: 8px;
+    }
+}
